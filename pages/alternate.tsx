@@ -1,5 +1,6 @@
-import * as React from 'react'
-import { StyleSheet, Text, View } from 'react-native'
+import * as React from "react";
+import { Link } from "../components/Link";
+import { StyleSheet, Text, View } from "react-native";
 
 export default () => (
   <View style={styles.container}>
@@ -7,24 +8,24 @@ export default () => (
       Alternate Page
     </Text>
 
-    <Text style={styles.link} accessibilityRole="link" href={`/`}>
+    <Link style={styles.link} href={`/`}>
       Go Back
-    </Text>
+    </Link>
   </View>
-)
+);
 
 const styles = StyleSheet.create({
   container: {
-    alignItems: 'center',
+    alignItems: "center",
     flexGrow: 1,
-    justifyContent: 'center',
+    justifyContent: "center",
   },
   text: {
-    alignItems: 'center',
+    alignItems: "center",
     fontSize: 24,
     marginBottom: 24,
   },
   link: {
-    color: 'blue',
+    color: "blue",
   },
-})
+});
