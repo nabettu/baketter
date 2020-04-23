@@ -2,5 +2,7 @@
   "name": "baketter",
   "displayName": "baketter",
   "title": "文字ばけったー",
-  "url": "https://baketter.now.sh/"
+  "description": "文章を入力すると、文字化けした文章に変換出来ます",
+  "url": "https://baketter.now.sh/",
+  "ogpUrl": "https://baketter.now.sh/img/ogp.png"
 }
